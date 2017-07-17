@@ -1,6 +1,21 @@
 import React from 'react';
 import Table from './Table';
 
+const columns = [
+  {
+    "key": "title",
+    "label": "Title"
+  },
+  {
+    "key": "year",
+    "label": "Year"
+  },
+  {
+    "key": "genre",
+    "label": "Genre"
+  }
+];
+
 const data = [
   {
     "id": 1,
