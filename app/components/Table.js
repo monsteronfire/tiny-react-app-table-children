@@ -12,7 +12,7 @@ class Table extends React.Component {
     return (
       <div className='table'>
         {this.state.data.map((item) => {
-          item
+          item.title
         })}
       </div>
     )
