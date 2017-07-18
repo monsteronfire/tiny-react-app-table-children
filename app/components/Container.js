@@ -46,7 +46,7 @@ const data = [
 class Container extends React.Component {
   render() {
     return (
-      <Table data={data} />
+      <Table data={data} columns={columns}/>
     )
   }
 }
